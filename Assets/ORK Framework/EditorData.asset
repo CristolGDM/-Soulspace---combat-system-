@@ -29,8 +29,10 @@ MonoBehaviour:
   updatePrefabs: 0
   updateScenes: 0
   sceneUpdate: 
-  eventAsset: []
-  gameEventAsset: []
+  eventAsset:
+  - {fileID: 11400000, guid: cbdab2083ef364445ba02f9f1c0ddfbb, type: 2}
+  gameEventAsset:
+  - {fileID: 11400000, guid: cbdab2083ef364445ba02f9f1c0ddfbb, type: 2}
   moveEventAsset: []
   battleEventAsset: []
   battleStartEventAsset: []

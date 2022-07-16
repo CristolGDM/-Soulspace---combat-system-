@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: ORKProject
+  m_Name: 637935841017320181
   m_EditorClassIdentifier: 
-  time: 7/16/2022 4:17:44 PM
+  time: 7/16/2022 4:00:30 PM
   version: 2.34.1
   keys:
   - editorSettings
@@ -218,9 +218,9 @@ MonoBehaviour:
       noMoveWhenCloser=\"True\" compAdd=\"False\" blockPlayer=\"False\" blockCamera=\"False\"
       />\n\t\t\t<_intarrays>\n\t\t\t\t<cancelKeyID />\n\t\t\t</_intarrays>\n\t\t\t<_string>\n\t\t\t\t<compName><![CDATA[]]></compName>\n\t\t\t\t<compSpeedMethod><![CDATA[]]></compSpeedMethod>\n\t\t\t\t<compPositionMethod><![CDATA[]]></compPositionMethod>\n\t\t\t\t<compStopMethod><![CDATA[]]></compStopMethod>\n\t\t\t</_string>\n\t\t\t<speed
       type=\"1\" >\n\t\t\t\t<_float speed=\"5\" />\n\t\t\t</speed>\n\t\t</moveToInteraction>\n\t</interaction>\n\t<playerControl
-      type=\"3\" >\n\t\t<_float runSpeed=\"16\" gravity=\"0\" speedSmoothing=\"10\"
+      type=\"3\" >\n\t\t<_float runSpeed=\"8\" gravity=\"0\" speedSmoothing=\"10\"
       />\n\t\t<_bool sceneChangeBlockControl=\"True\" sceneChangeDestroyPlayer=\"False\"
-      moveDead=\"True\" useSpeed=\"False\" />\n\t\t<buttonController verticalAxis=\"2\"
+      moveDead=\"True\" useSpeed=\"True\" />\n\t\t<buttonController verticalAxis=\"2\"
       horizontalAxis=\"1\" jumpKey=\"0\" jumpInterpolation=\"2\" sprintKey=\"0\"
       >\n\t\t\t<_float rotateSpeed=\"500\" camDirectionOffset=\"0\" minFallTime=\"0.1\"
       jumpDuration=\"0.5\" jumpDelay=\"0\" jumpSpeed=\"9.81\" inAirModifier=\"0.5\"
@@ -257,8 +257,8 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t<_float initialValue=\"0\" offset=\"0\"
       value=\"0\" value2=\"0\" />\n\t\t\t\t<_bool isInt=\"False\" isUTC=\"False\"
       />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t</_string>\n\t\t\t</energyRegeneration>\n\t\t</topDown2DController>\n\t</playerControl>\n\t<cameraControl
-      type=\"2\" >\n\t\t<_bool sceneChangeBlockControl=\"True\" />\n\t\t<followControl>\n\t\t\t<_float
-      distance=\"10\" height=\"5\" heightDamping=\"0\" rotationDamping=\"3\" />\n\t\t\t<_bool
+      type=\"1\" >\n\t\t<_bool sceneChangeBlockControl=\"True\" />\n\t\t<followControl>\n\t\t\t<_float
+      distance=\"10\" height=\"5\" heightDamping=\"2\" rotationDamping=\"3\" />\n\t\t\t<_bool
       useUnscaledTime=\"False\" />\n\t\t\t<_string>\n\t\t\t\t<onChild><![CDATA[]]></onChild>\n\t\t\t</_string>\n\t\t</followControl>\n\t\t<lookControl>\n\t\t\t<_float
       damping=\"6\" />\n\t\t\t<_bool useUnscaledTime=\"False\" smooth=\"False\" />\n\t\t\t<_string>\n\t\t\t\t<onChild><![CDATA[]]></onChild>\n\t\t\t</_string>\n\t\t</lookControl>\n\t\t<mouseControl>\n\t\t\t<_float
       distance=\"10\" height=\"15\" minHeight=\"5\" maxHeight=\"30\" heightDamping=\"2\"
