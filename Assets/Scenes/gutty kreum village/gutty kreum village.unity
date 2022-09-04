@@ -32606,7 +32606,7 @@ MonoBehaviour:
   loadMainMenuScene: 0
   callMainMenu: 0
   callAfter: 0
-  startGame: 1
+  startGame: 0
 --- !u!4 &272489549881819759
 Transform:
   m_ObjectHideFlags: 0
@@ -32840,7 +32840,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2601292715660017443}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 2088049802, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
   m_Name: 
@@ -32936,10 +32936,7 @@ MonoBehaviour:
       serialize_variable:
         name: variable
         xmlData: "<variable type=\"1\" >\n\t<_bool isValid=\"False\" />\n\t<stringValue
-          type=\"0\" >\n\t\t<_string>\n\t\t\t<value><![CDATA[]]></value>\n\t\t</_string>\n\t</stringValue>\n\t<check
-          type=\"0\" >\n\t\t<value type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t<_float
-          initialValue=\"0\" offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t<_bool
-          isInt=\"False\" isUTC=\"False\" />\n\t\t\t<_string>\n\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t</_string>\n\t\t</value>\n\t</check>\n\t<vector3Value
+          type=\"0\" >\n\t\t<_string>\n\t\t\t<value><![CDATA[]]></value>\n\t\t</_string>\n\t</stringValue>\n\t<vector3Value
           type=\"0\" >\n\t\t<_float xMin=\"0\" xMax=\"0\" yMin=\"0\" yMax=\"0\" zMin=\"0\"
           zMax=\"0\" />\n\t\t<_floatarrays>\n\t\t\t<value 0 0 0 />\n\t\t</_floatarrays>\n\t\t<_string>\n\t\t\t<variableKey><![CDATA[]]></variableKey>\n\t\t</_string>\n\t</vector3Value>\n</variable>\n"
         lookUp:
