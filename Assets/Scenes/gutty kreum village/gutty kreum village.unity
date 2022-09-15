@@ -4676,9 +4676,9 @@ Tilemap:
   - m_RefCount: 11
     m_Data: {fileID: 11400000, guid: 42f65e94cae2c1b4fb0d6721fa4a8055, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 2137108557448f548a2264aecbbad5ae, type: 2}
+    m_Data: {fileID: 11400000, guid: a3ab717a0e6f9f8449ab72e9dc47d183, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 01542dd159ef0a7489a7ef4f67b6332b, type: 2}
+    m_Data: {fileID: 11400000, guid: 804c21c4d40c01c43a8d16ef63f00f16, type: 2}
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: d47efd5d8164c7d49b6e4cdfb9080d24, type: 2}
   - m_RefCount: 2
@@ -5059,11 +5059,11 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 1930295721, guid: 1ac29fccb08d8b948aeb209f44ffe9bf, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 911376766, guid: 1ac29fccb08d8b948aeb209f44ffe9bf, type: 3}
+    m_Data: {fileID: 501664215, guid: 1ac29fccb08d8b948aeb209f44ffe9bf, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 675626294, guid: 1ac29fccb08d8b948aeb209f44ffe9bf, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 547643393, guid: 1ac29fccb08d8b948aeb209f44ffe9bf, type: 3}
+    m_Data: {fileID: 2061135300, guid: 1ac29fccb08d8b948aeb209f44ffe9bf, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 419831863, guid: e60319bea9b07af418548c044c11d8cd, type: 3}
   - m_RefCount: 1
@@ -27149,26 +27149,6 @@ Tilemap:
   m_GameObject: {fileID: 1670799484}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: 101, y: -105, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 61
-      m_TileSpriteIndex: 61
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 104, y: -105, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 60
-      m_TileSpriteIndex: 60
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 105, y: -105, z: 0}
     second:
       serializedVersion: 2
@@ -27701,10 +27681,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: a3ab717a0e6f9f8449ab72e9dc47d183, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 804c21c4d40c01c43a8d16ef63f00f16, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 50178a4b72601f0469a5bc200041c5e7, type: 2}
   - m_RefCount: 2
@@ -27900,10 +27880,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 2061135300, guid: 1ac29fccb08d8b948aeb209f44ffe9bf, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 501664215, guid: 1ac29fccb08d8b948aeb209f44ffe9bf, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: 9166560, guid: e60319bea9b07af418548c044c11d8cd, type: 3}
   - m_RefCount: 2
@@ -27979,7 +27959,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 1537781768, guid: e60319bea9b07af418548c044c11d8cd, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 43
+  - m_RefCount: 41
     m_Data:
       e00: 1
       e01: 0
@@ -27998,7 +27978,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 43
+  - m_RefCount: 41
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -32565,95 +32545,6 @@ MonoBehaviour:
   offset: {x: 0, y: 0, z: 0}
   useYRotation: 1
   useScale: 0
---- !u!1 &272489549881819757
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 272489549881819759}
-  - component: {fileID: 272489549881819758}
-  m_Layer: 0
-  m_Name: ORK Game Starter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &272489549881819758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272489549881819757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 89115686, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useAssetBundle: 0
-  project: {fileID: 11400000, guid: 4a100c915be0cd34ca81fab659af34e2, type: 2}
-  assetBundle:
-    assetName: 
-    assetBundleName: 
-    pathOrigin: 1
-    path: 
-    loadType: 0
-    loadAsync: 0
-  loadMainMenuScene: 0
-  callMainMenu: 0
-  callAfter: 0
-  startGame: 0
---- !u!4 &272489549881819759
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272489549881819757}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -81.3, y: 51.34, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2601292715660017443
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2601292715660017469}
-  - component: {fileID: 2766058081246405018}
-  m_Layer: 0
-  m_Name: spawn player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2601292715660017469
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2601292715660017443}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -79.700005, y: 51.34, z: -31.435547}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2676841216633956688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32833,286 +32724,3 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2766058081246405018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2601292715660017443}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 2088049802, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useSceneID: 1
-  sceneID: -1
-  autoDestroy: 1
-  repeatDestroy: 0
-  destroyCheckTime: 1
-  checkObjectVariables: 0
-  variableCondition:
-    needed: 0
-    gameVariable:
-    - conditionType: 0
-      key:
-        type: 0
-        value: playerAdded
-      variable:
-        isValid: 0
-        type: 1
-        stringValue:
-          type: 0
-          value: 
-        serialize_check:
-          name: 
-          xmlData: 
-          lookUp:
-            textures: []
-            audioClips: []
-            gameObjects: []
-            guiSkins: []
-            materials: []
-            fonts: []
-            eventAssets: []
-            generalAssets: []
-          encrypted: 0
-        vector3Value:
-          type: 0
-          value: {x: 0, y: 0, z: 0}
-          variableKey: 
-          xMin: 0
-          xMax: 0
-          yMin: 0
-          yMax: 0
-          zMin: 0
-          zMax: 0
-        floatCheck: 7
-        floatValue:
-          type: 0
-          name: 
-          isInt: 0
-          id: 0
-          initialValue: 0
-          offset: 0
-          isUTC: 0
-          value: 0
-          value2: 0
-          rounding: 0
-        floatValue2:
-          type: 0
-          name: 
-          isInt: 0
-          id: 0
-          initialValue: 0
-          offset: 0
-          isUTC: 0
-          value: 0
-          value2: 0
-          rounding: 0
-        vector3Check: 7
-        vector3Distance:
-          type: 0
-          name: 
-          isInt: 0
-          id: 0
-          initialValue: 0
-          offset: 0
-          isUTC: 0
-          value: 0
-          value2: 0
-          rounding: 0
-        vector3Distance2:
-          type: 0
-          name: 
-          isInt: 0
-          id: 0
-          initialValue: 0
-          offset: 0
-          isUTC: 0
-          value: 0
-          value2: 0
-          rounding: 0
-      serialize_variable:
-        name: variable
-        xmlData: "<variable type=\"1\" >\n\t<_bool isValid=\"False\" />\n\t<stringValue
-          type=\"0\" >\n\t\t<_string>\n\t\t\t<value><![CDATA[]]></value>\n\t\t</_string>\n\t</stringValue>\n\t<vector3Value
-          type=\"0\" >\n\t\t<_float xMin=\"0\" xMax=\"0\" yMin=\"0\" yMax=\"0\" zMin=\"0\"
-          zMax=\"0\" />\n\t\t<_floatarrays>\n\t\t\t<value 0 0 0 />\n\t\t</_floatarrays>\n\t\t<_string>\n\t\t\t<variableKey><![CDATA[]]></variableKey>\n\t\t</_string>\n\t</vector3Value>\n</variable>\n"
-        lookUp:
-          textures: []
-          audioClips: []
-          gameObjects: []
-          guiSkins: []
-          materials: []
-          fonts: []
-          eventAssets: []
-          generalAssets: []
-        encrypted: 0
-      condition:
-        needed: 0
-        gameVariable: []
-      templateID: 0
-      isValid: 1
-      type: 4
-      stringValue:
-        type: 0
-        value: 
-      floatCheck: 0
-      floatValue:
-        type: 0
-        name: 
-        isInt: 0
-        id: 0
-        initialValue: 0
-        offset: 0
-        isUTC: 0
-        value: 0
-        value2: 0
-        rounding: 0
-      floatValue2:
-        type: 0
-        name: 
-        isInt: 0
-        id: 0
-        initialValue: 0
-        offset: 0
-        isUTC: 0
-        value: 0
-        value2: 0
-        rounding: 0
-      vector3Check: 1
-      vector3Distance:
-        type: 0
-        name: 
-        isInt: 0
-        id: 0
-        initialValue: 0
-        offset: 0
-        isUTC: 0
-        value: 0
-        value2: 0
-        rounding: 0
-      vector3Distance2:
-        type: 0
-        name: 
-        isInt: 0
-        id: 0
-        initialValue: 0
-        offset: 0
-        isUTC: 0
-        value: 0
-        value2: 0
-        rounding: 0
-      vector3Value:
-        type: 0
-        value: {x: 0, y: 0, z: 0}
-        variableKey: 
-        xMin: 0
-        xMax: 0
-        yMin: 0
-        yMax: 0
-        zMin: 0
-        zMax: 0
-  setObjectVariables: 0
-  variableSetter:
-    gameVariable:
-    - key:
-        type: 0
-        value: playerAdded
-      remove: 0
-      type: 1
-      stringValue:
-        type: 0
-        value: 
-      boolValue: 1
-      floatOperator: 7
-      floatValue:
-        type: 0
-        name: 
-        isInt: 0
-        id: 0
-        initialValue: 0
-        offset: 0
-        isUTC: 0
-        value: 0
-        value2: 0
-        rounding: 0
-      vector3Operator: 2
-      vector3Normalize: 0
-      vector3Value:
-        type: 0
-        value: {x: 0, y: 0, z: 0}
-        variableKey: 
-        xMin: 0
-        xMax: 0
-        yMin: 0
-        yMax: 0
-        zMin: 0
-        zMax: 0
-  questCondition:
-    neededQuestTypes: 0
-    questTypeStatus: []
-    neededQuests: 0
-    questStatus: []
-    neededTasks: 0
-    taskStatus: []
-  startType: 1
-  inBlockedControl: 0
-  customType: 
-  autoStartAfter: 0
-  allowClick: 1
-  overrideClickDistance: 0
-  maxClickDistance: 3
-  useMoveToInteraction: 1
-  destinationObject: {fileID: 0}
-  overrideInteractionRadius: 0
-  interactionRadius: 1
-  overrideStopDistance: 0
-  stopDistance: 1
-  overrideMoveToSpeed: 0
-  moveToSpeed:
-    type: 1
-    speed: 5
-  keyToPress: 0
-  keyPressInTrigger: 0
-  keyPressWhileColliding: 0
-  dropType: 0
-  dropItem:
-    type: 0
-    id: 0
-    level: 1
-    quantity: 1
-    chance: 100
-  dropAbility:
-    abilityID: 0
-    level: 1
-  consumeDrop: 0
-  startByCollider: 1
-  startByTrigger: 1
-  startByRootObject: 0
-  useOtherObject: 0
-  startObjectCheck:
-    checkName: 0
-    isTag: 0
-    name: 
-    components: []
-  horizontalPlane:
-    type: 0
-  useFront: 1
-  useBack: 1
-  useLeft: 1
-  useRight: 1
-  eventAsset: {fileID: 11400000, guid: cbdab2083ef364445ba02f9f1c0ddfbb, type: 2}
-  interactionType: 2
-  repeatExecution: 0
-  deactivateAfter: 1
-  turnToEvent: 1
-  turnToPlayer: 0
-  stopOnDestroy: 0
-  actor: []
-  waypoint: []
-  prefab: []
-  audioClip: []
-  timeBefore: 0
-  timeAfter: 0
