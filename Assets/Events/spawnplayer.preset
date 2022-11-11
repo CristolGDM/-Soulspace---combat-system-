@@ -1,0 +1,999 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: spawnplayer
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 2088049802, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useSceneID
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sceneID
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: autoDestroy
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: repeatDestroy
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: destroyCheckTime
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: checkObjectVariables
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.needed
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].conditionType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].key.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].key.value
+    value: playerAdded
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.isValid
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.stringValue.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.stringValue.value
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.serialize_check.name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.serialize_check.xmlData
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.serialize_check.lookUp.textures.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.serialize_check.lookUp.audioClips.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.serialize_check.lookUp.gameObjects.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.serialize_check.lookUp.guiSkins.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.serialize_check.lookUp.materials.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.serialize_check.lookUp.fonts.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.serialize_check.lookUp.eventAssets.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.serialize_check.lookUp.generalAssets.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.serialize_check.encrypted
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Value.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Value.value.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Value.value.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Value.value.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Value.variableKey
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Value.xMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Value.xMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Value.yMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Value.yMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Value.zMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Value.zMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatCheck
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue.name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue.isInt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue.id
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue.initialValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue.offset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue.isUTC
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue.value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue.value2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue.rounding
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue2.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue2.name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue2.isInt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue2.id
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue2.initialValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue2.offset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue2.isUTC
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue2.value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue2.value2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.floatValue2.rounding
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Check
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance.name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance.isInt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance.id
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance.initialValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance.offset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance.isUTC
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance.value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance.value2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance.rounding
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance2.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance2.name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance2.isInt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance2.id
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance2.initialValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance2.offset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance2.isUTC
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance2.value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance2.value2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].variable.vector3Distance2.rounding
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].serialize_variable.name
+    value: variable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].serialize_variable.xmlData
+    value: "<variable type=\"1\" >\n\t<_bool isValid=\"False\" />\n</variable>\n"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].serialize_variable.lookUp.textures.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].serialize_variable.lookUp.audioClips.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].serialize_variable.lookUp.gameObjects.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].serialize_variable.lookUp.guiSkins.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].serialize_variable.lookUp.materials.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].serialize_variable.lookUp.fonts.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].serialize_variable.lookUp.eventAssets.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].serialize_variable.lookUp.generalAssets.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].serialize_variable.encrypted
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].condition.needed
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].condition.gameVariable.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].templateID
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].isValid
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].type
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].stringValue.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].stringValue.value
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatCheck
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue.name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue.isInt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue.id
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue.initialValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue.offset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue.isUTC
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue.value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue.value2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue.rounding
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue2.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue2.name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue2.isInt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue2.id
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue2.initialValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue2.offset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue2.isUTC
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue2.value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue2.value2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].floatValue2.rounding
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Check
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance.name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance.isInt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance.id
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance.initialValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance.offset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance.isUTC
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance.value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance.value2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance.rounding
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance2.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance2.name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance2.isInt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance2.id
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance2.initialValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance2.offset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance2.isUTC
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance2.value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance2.value2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Distance2.rounding
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Value.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Value.value.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Value.value.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Value.value.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Value.variableKey
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Value.xMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Value.xMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Value.yMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Value.yMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Value.zMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableCondition.gameVariable.Array.data[0].vector3Value.zMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: setObjectVariables
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].key.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].key.value
+    value: playerAdded
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].remove
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].stringValue.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].stringValue.value
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].boolValue
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].floatOperator
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].floatValue.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].floatValue.name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].floatValue.isInt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].floatValue.id
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].floatValue.initialValue
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].floatValue.offset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].floatValue.isUTC
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].floatValue.value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].floatValue.value2
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].floatValue.rounding
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Operator
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Normalize
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Value.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Value.value.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Value.value.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Value.value.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Value.variableKey
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Value.xMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Value.xMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Value.yMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Value.yMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Value.zMin
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: variableSetter.gameVariable.Array.data[0].vector3Value.zMax
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questCondition.neededQuestTypes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questCondition.questTypeStatus.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questCondition.neededQuests
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questCondition.questStatus.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questCondition.neededTasks
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: questCondition.taskStatus.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: startType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inBlockedControl
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: customType
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: autoStartAfter
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: allowClick
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideClickDistance
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxClickDistance
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useMoveToInteraction
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: destinationObject
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideInteractionRadius
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: interactionRadius
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideStopDistance
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: stopDistance
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideMoveToSpeed
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: moveToSpeed.type
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: moveToSpeed.speed
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: keyToPress
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: keyPressInTrigger
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: keyPressWhileColliding
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dropType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dropItem.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dropItem.id
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dropItem.level
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dropItem.quantity
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dropItem.chance
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dropAbility.abilityID
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dropAbility.level
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: consumeDrop
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: startByCollider
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: startByTrigger
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: startByRootObject
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useOtherObject
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: startObjectCheck.checkName
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: startObjectCheck.isTag
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: startObjectCheck.name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: startObjectCheck.components.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horizontalPlane.type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useFront
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useBack
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useLeft
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useRight
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: eventAsset
+    value: 
+    objectReference: {fileID: 11400000, guid: cbdab2083ef364445ba02f9f1c0ddfbb, type: 2}
+  - target: {fileID: 0}
+    propertyPath: interactionType
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: repeatExecution
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: deactivateAfter
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: turnToEvent
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: turnToPlayer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: stopOnDestroy
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actor.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: waypoint.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: prefab.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: audioClip.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: timeBefore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: timeAfter
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
