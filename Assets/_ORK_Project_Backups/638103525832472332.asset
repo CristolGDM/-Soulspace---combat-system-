@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: 638103296233479388
+  m_Name: 638103525832472332
   m_EditorClassIdentifier: 
-  time: 1/26/2023 11:32:00 AM
+  time: 1/26/2023 5:55:54 PM
   version: 2.34.1
   keys:
   - editorSettings
@@ -511,7 +511,34 @@ MonoBehaviour:
       typeID=\"3\" layer=\"0\" durationType=\"0\" playMode=\"1\" >\n\t\t\t\t\t\t\t<_float
       layerWeight=\"1\" duration=\"0\" transitionDuration=\"0.1\" normalizedTime=\"0\"
       />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseSpeed=\"False\"
-      durationUseState=\"True\" setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[1_Run]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</animations>\n"
+      durationUseState=\"True\" setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[1_Run]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_bool
+      randomFirstStartTime=\"False\" mSetSpeed=\"False\" mSetAutoHorizontal=\"False\"
+      mSetAutoVertical=\"False\" mSetXRotation=\"False\" mSetYRotation=\"False\"
+      mSetZRotation=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[TimeFantasy]]></name>\n\t\t\t\t\t<mAutoHoriziontal><![CDATA[]]></mAutoHoriziontal>\n\t\t\t\t\t<mAutoVertical><![CDATA[]]></mAutoVertical>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<legacy>\n\t\t\t\t\t</legacy>\n\t\t\t\t\t<mecanim>\n\t\t\t\t\t\t<0
+      typeID=\"0\" layer=\"0\" durationType=\"0\" playMode=\"1\" >\n\t\t\t\t\t\t\t<_float
+      layerWeight=\"1\" duration=\"0\" transitionDuration=\"0.1\" normalizedTime=\"0\"
+      />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseSpeed=\"False\"
+      durationUseState=\"True\" setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[0_idle]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"0\" iVal=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[IsMoving]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      typeID=\"1\" layer=\"0\" durationType=\"0\" playMode=\"1\" >\n\t\t\t\t\t\t\t<_float
+      layerWeight=\"1\" duration=\"0\" transitionDuration=\"0.1\" normalizedTime=\"0\"
+      />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseSpeed=\"False\"
+      durationUseState=\"True\" setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[1_Run]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"0\" iVal=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useHashID=\"True\" bToggle=\"False\" bVal=\"True\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[IsMoving]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      typeID=\"2\" layer=\"0\" durationType=\"0\" playMode=\"1\" >\n\t\t\t\t\t\t\t<_float
+      layerWeight=\"1\" duration=\"0\" transitionDuration=\"0.1\" normalizedTime=\"0\"
+      />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseSpeed=\"False\"
+      durationUseState=\"True\" setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[1_Run]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"0\" iVal=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useHashID=\"True\" bToggle=\"False\" bVal=\"True\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[IsMoving]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      typeID=\"3\" layer=\"0\" durationType=\"0\" playMode=\"1\" >\n\t\t\t\t\t\t\t<_float
+      layerWeight=\"1\" duration=\"0\" transitionDuration=\"0.1\" normalizedTime=\"0\"
+      />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseSpeed=\"False\"
+      durationUseState=\"True\" setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[1_Run]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"0\" iVal=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useHashID=\"True\" bToggle=\"False\" bVal=\"True\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[IsMoving]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</animations>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -2519,11 +2546,11 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"9\" value2=\"0\" />\n\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</sprintSpeed>\n\t\t\t\t</moveSettings>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<conditionalPrefab>\n\t\t\t\t\t</conditionalPrefab>\n\t\t\t\t\t<battleSound>\n\t\t\t\t\t</battleSound>\n\t\t\t\t\t<portraitSet>\n\t\t\t\t\t</portraitSet>\n\t\t\t\t\t<textCode>\n\t\t\t\t\t</textCode>\n\t\t\t\t\t<randomSVBonus>\n\t\t\t\t\t</randomSVBonus>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
-      abilityID=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t\t<startEquipment>\n\t\t\t\t\t</startEquipment>\n\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Fighter]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      abilityID=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t\t<startEquipment>\n\t\t\t\t\t</startEquipment>\n\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[SPUM]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
       typeID=\"0\" startLevel=\"1\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"0\"
       randomSVBonusType=\"0\" svBonusCount=\"1\" lootOrigin=\"0\" logTextID=\"0\"
       logID=\"0\" deathVarOrigin=\"0\" aggressionType=\"0\" shortcutListCount=\"1\"
-      animationSystem=\"1\" animationID=\"0\" animationBattleID=\"0\" >\n\t\t\t\t<_float
+      animationSystem=\"1\" animationID=\"1\" animationBattleID=\"0\" >\n\t\t\t\t<_float
       battleGroupSizeChange=\"0\" sympathyChange=\"0\" aiTimeout=\"0\" />\n\t\t\t\t<_bool
       ownNumberFormat=\"False\" setObjectName=\"False\" useObjectVariables=\"False\"
       useObjectVariableDescription=\"False\" ownConsoleAddDefend=\"False\" ownConsoleDefend=\"False\"
@@ -2599,11 +2626,11 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"9\" value2=\"0\" />\n\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</sprintSpeed>\n\t\t\t\t</moveSettings>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<conditionalPrefab>\n\t\t\t\t\t</conditionalPrefab>\n\t\t\t\t\t<battleSound>\n\t\t\t\t\t</battleSound>\n\t\t\t\t\t<portraitSet>\n\t\t\t\t\t</portraitSet>\n\t\t\t\t\t<textCode>\n\t\t\t\t\t</textCode>\n\t\t\t\t\t<randomSVBonus>\n\t\t\t\t\t</randomSVBonus>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
-      abilityID=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t\t<startEquipment>\n\t\t\t\t\t</startEquipment>\n\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Healer]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
+      abilityID=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t\t<startEquipment>\n\t\t\t\t\t</startEquipment>\n\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[TimeFantasy]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
       typeID=\"0\" startLevel=\"1\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"0\"
       randomSVBonusType=\"0\" svBonusCount=\"1\" lootOrigin=\"0\" logTextID=\"0\"
       logID=\"0\" deathVarOrigin=\"0\" aggressionType=\"0\" shortcutListCount=\"1\"
-      animationSystem=\"0\" animationID=\"0\" animationBattleID=\"0\" >\n\t\t\t\t<_float
+      animationSystem=\"1\" animationID=\"0\" animationBattleID=\"0\" >\n\t\t\t\t<_float
       battleGroupSizeChange=\"0\" sympathyChange=\"0\" aiTimeout=\"0\" />\n\t\t\t\t<_bool
       ownNumberFormat=\"False\" setObjectName=\"False\" useObjectVariables=\"False\"
       useObjectVariableDescription=\"False\" ownConsoleAddDefend=\"False\" ownConsoleDefend=\"False\"
@@ -2683,7 +2710,7 @@ MonoBehaviour:
       typeID=\"0\" startLevel=\"1\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"0\"
       randomSVBonusType=\"0\" svBonusCount=\"1\" lootOrigin=\"0\" logTextID=\"0\"
       logID=\"0\" deathVarOrigin=\"0\" aggressionType=\"0\" shortcutListCount=\"1\"
-      animationSystem=\"0\" animationID=\"0\" animationBattleID=\"0\" >\n\t\t\t\t<_float
+      animationSystem=\"1\" animationID=\"0\" animationBattleID=\"0\" >\n\t\t\t\t<_float
       battleGroupSizeChange=\"0\" sympathyChange=\"0\" aiTimeout=\"0\" />\n\t\t\t\t<_bool
       ownNumberFormat=\"False\" setObjectName=\"False\" useObjectVariables=\"False\"
       useObjectVariableDescription=\"False\" ownConsoleAddDefend=\"False\" ownConsoleDefend=\"False\"
@@ -2765,7 +2792,7 @@ MonoBehaviour:
       audioClips: []
       gameObjects:
       - {fileID: 1091734235383615999, guid: 925ce95c2b25c3f41ba4e4c7e9a5165b, type: 3}
-      - {fileID: 4223150977084334418, guid: d02142ce46fc95148b18bd557259df8d, type: 3}
+      - {fileID: 1091734235383615999, guid: 9e4bedee6af8f9e47903623834032f3f, type: 3}
       - {fileID: 5166859515066016756, guid: 9452ef050505545498f96ef30f6b8b20, type: 3}
       - {fileID: 419218063865378123, guid: b88eee80e05e8d44787d74859b63c0dd, type: 3}
       guiSkins: []

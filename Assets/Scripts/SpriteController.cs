@@ -7,6 +7,14 @@ public class SpriteController : MonoBehaviour
 {
     static int currentCharacter = 0;
     private readonly int maxCharacter = 2;
+
+    private Animator animator;
+
+    private void Awake() {
+        if (animator == null) {
+            animator = GetComponentInChildren<Animator>();
+        }
+    }
     public void PreviousCharacter() {
         if(currentCharacter == 0) {
             currentCharacter = maxCharacter;
@@ -27,8 +35,27 @@ public class SpriteController : MonoBehaviour
     }
 
     private void SetCharacter() {
-        Debug.Log("Calling event with " + currentCharacter);
         ORK.GlobalEvents.Get(currentCharacter).Call();
-        Debug.Log("Called event");
+    }
+
+    public void SetDirectionUp() {
+        if (animator != null) {
+            animator.SetInteger("Direction", 0);
+        }
+    }
+    public void SetDirectionRight() {
+        if (animator != null) {
+            animator.SetInteger("Direction", 1);
+        }
+    }
+    public void SetDirectionDown() {
+        if (animator != null) {
+            animator.SetInteger("Direction", 2);
+        }
+    }
+    public void SetDirectionLeft() {
+        if (animator != null) {
+            animator.SetInteger("Direction", 3);
+        }
     }
 }

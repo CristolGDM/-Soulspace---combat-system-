@@ -198,6 +198,138 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""MovementControl"",
+            ""id"": ""3cbb9d48-4192-4e9c-a721-495e54765024"",
+            ""actions"": [
+                {
+                    ""name"": ""GoLeft"",
+                    ""type"": ""Button"",
+                    ""id"": ""f87d9425-49fb-4b6d-8f50-fdc46e236c0e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""GoRight"",
+                    ""type"": ""Button"",
+                    ""id"": ""50af69d1-8cc4-4383-9387-6c4ba254dfd0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""GoUp"",
+                    ""type"": ""Button"",
+                    ""id"": ""b86e6417-9c9b-40fc-8c9e-def6f65fb79b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""GoDown"",
+                    ""type"": ""Button"",
+                    ""id"": ""e61d4348-2286-467a-8910-26e3e8353dcd"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""71b66122-6b85-4644-8e1f-14528cdcca60"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""GoLeft"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2f8560e2-dbf9-4dea-be7e-d5287c0e83e9"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""GoLeft"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a01cc0e3-7cb0-482f-980c-d54e67c5c1a6"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""GoRight"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5bf93e3c-6c26-4319-bd87-bc82793178af"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""GoRight"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""65343491-dd47-43f7-b3fc-a5e417983855"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""GoUp"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a26a348d-9a81-47c7-a50d-71728f9dea6c"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""GoUp"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f51c4451-5bf1-4cea-b752-3033a1efe3d6"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""GoDown"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""eb67ee6f-9b90-4931-b1c6-a908e517f5b6"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""GoDown"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -208,6 +340,12 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_UIControl_UnZoom = m_UIControl.FindAction("UnZoom", throwIfNotFound: true);
         m_UIControl_NextCharacter = m_UIControl.FindAction("NextCharacter", throwIfNotFound: true);
         m_UIControl_PrevCharacter = m_UIControl.FindAction("PrevCharacter", throwIfNotFound: true);
+        // MovementControl
+        m_MovementControl = asset.FindActionMap("MovementControl", throwIfNotFound: true);
+        m_MovementControl_GoLeft = m_MovementControl.FindAction("GoLeft", throwIfNotFound: true);
+        m_MovementControl_GoRight = m_MovementControl.FindAction("GoRight", throwIfNotFound: true);
+        m_MovementControl_GoUp = m_MovementControl.FindAction("GoUp", throwIfNotFound: true);
+        m_MovementControl_GoDown = m_MovementControl.FindAction("GoDown", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -320,11 +458,75 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         }
     }
     public UIControlActions @UIControl => new UIControlActions(this);
+
+    // MovementControl
+    private readonly InputActionMap m_MovementControl;
+    private IMovementControlActions m_MovementControlActionsCallbackInterface;
+    private readonly InputAction m_MovementControl_GoLeft;
+    private readonly InputAction m_MovementControl_GoRight;
+    private readonly InputAction m_MovementControl_GoUp;
+    private readonly InputAction m_MovementControl_GoDown;
+    public struct MovementControlActions
+    {
+        private @PlayerControls m_Wrapper;
+        public MovementControlActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @GoLeft => m_Wrapper.m_MovementControl_GoLeft;
+        public InputAction @GoRight => m_Wrapper.m_MovementControl_GoRight;
+        public InputAction @GoUp => m_Wrapper.m_MovementControl_GoUp;
+        public InputAction @GoDown => m_Wrapper.m_MovementControl_GoDown;
+        public InputActionMap Get() { return m_Wrapper.m_MovementControl; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(MovementControlActions set) { return set.Get(); }
+        public void SetCallbacks(IMovementControlActions instance)
+        {
+            if (m_Wrapper.m_MovementControlActionsCallbackInterface != null)
+            {
+                @GoLeft.started -= m_Wrapper.m_MovementControlActionsCallbackInterface.OnGoLeft;
+                @GoLeft.performed -= m_Wrapper.m_MovementControlActionsCallbackInterface.OnGoLeft;
+                @GoLeft.canceled -= m_Wrapper.m_MovementControlActionsCallbackInterface.OnGoLeft;
+                @GoRight.started -= m_Wrapper.m_MovementControlActionsCallbackInterface.OnGoRight;
+                @GoRight.performed -= m_Wrapper.m_MovementControlActionsCallbackInterface.OnGoRight;
+                @GoRight.canceled -= m_Wrapper.m_MovementControlActionsCallbackInterface.OnGoRight;
+                @GoUp.started -= m_Wrapper.m_MovementControlActionsCallbackInterface.OnGoUp;
+                @GoUp.performed -= m_Wrapper.m_MovementControlActionsCallbackInterface.OnGoUp;
+                @GoUp.canceled -= m_Wrapper.m_MovementControlActionsCallbackInterface.OnGoUp;
+                @GoDown.started -= m_Wrapper.m_MovementControlActionsCallbackInterface.OnGoDown;
+                @GoDown.performed -= m_Wrapper.m_MovementControlActionsCallbackInterface.OnGoDown;
+                @GoDown.canceled -= m_Wrapper.m_MovementControlActionsCallbackInterface.OnGoDown;
+            }
+            m_Wrapper.m_MovementControlActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @GoLeft.started += instance.OnGoLeft;
+                @GoLeft.performed += instance.OnGoLeft;
+                @GoLeft.canceled += instance.OnGoLeft;
+                @GoRight.started += instance.OnGoRight;
+                @GoRight.performed += instance.OnGoRight;
+                @GoRight.canceled += instance.OnGoRight;
+                @GoUp.started += instance.OnGoUp;
+                @GoUp.performed += instance.OnGoUp;
+                @GoUp.canceled += instance.OnGoUp;
+                @GoDown.started += instance.OnGoDown;
+                @GoDown.performed += instance.OnGoDown;
+                @GoDown.canceled += instance.OnGoDown;
+            }
+        }
+    }
+    public MovementControlActions @MovementControl => new MovementControlActions(this);
     public interface IUIControlActions
     {
         void OnZoom(InputAction.CallbackContext context);
         void OnUnZoom(InputAction.CallbackContext context);
         void OnNextCharacter(InputAction.CallbackContext context);
         void OnPrevCharacter(InputAction.CallbackContext context);
+    }
+    public interface IMovementControlActions
+    {
+        void OnGoLeft(InputAction.CallbackContext context);
+        void OnGoRight(InputAction.CallbackContext context);
+        void OnGoUp(InputAction.CallbackContext context);
+        void OnGoDown(InputAction.CallbackContext context);
     }
 }

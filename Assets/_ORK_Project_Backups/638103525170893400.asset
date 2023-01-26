@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: 638103294133777664
+  m_Name: 638103525170893400
   m_EditorClassIdentifier: 
-  time: 1/26/2023 11:13:33 AM
+  time: 1/26/2023 5:48:39 PM
   version: 2.34.1
   keys:
   - editorSettings
@@ -732,13 +732,7 @@ MonoBehaviour:
       loadSceneMode=\"0\" guiBoxID=\"0\" >\n\t\t<_float waitTime=\"1\" />\n\t\t<_bool
       loadAsync=\"False\" fieldAuto=\"False\" autoGroupDead=\"True\" useFadeOut=\"True\"
       useFadeIn=\"True\" showChoice=\"False\" loadMainMenuScene=\"True\" useTitle=\"False\"
-      showRetry=\"True\" showLoad=\"True\" showExit=\"True\" />\n\t\t<_string>\n\t\t\t<scene><![CDATA[]]></scene>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<fadeOut
-      interpolation=\"0\" >\n\t\t\t<_float time=\"0.5\" />\n\t\t\t<_bool alpha=\"True\"
-      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t<_floatarrays>\n\t\t\t\t<startColor
-      0 0 0 0 />\n\t\t\t\t<endColor 0 0 0 1 />\n\t\t\t</_floatarrays>\n\t\t</fadeOut>\n\t\t<fadeIn
-      interpolation=\"0\" >\n\t\t\t<_float time=\"0.5\" />\n\t\t\t<_bool alpha=\"True\"
-      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t<_floatarrays>\n\t\t\t\t<startColor
-      0 0 0 1 />\n\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t</_floatarrays>\n\t\t</fadeIn>\n\t\t<variableSetter>\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableSetter>\n\t\t<retryButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
+      showRetry=\"True\" showLoad=\"True\" showExit=\"True\" />\n\t\t<_string>\n\t\t\t<scene><![CDATA[]]></scene>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<variableSetter>\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableSetter>\n\t\t<retryButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomPosition=\"False\" useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Retry]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</retryButton>\n\t\t<loadButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomPosition=\"False\" useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Load]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</loadButton>\n\t\t<exitButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomPosition=\"False\" useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Exit]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</exitButton>\n\t</gameOver>\n\t<initialVariables>\n\t\t<_subarrays>\n\t\t\t<gameVariable>\n\t\t\t</gameVariable>\n\t\t</_subarrays>\n\t</initialVariables>\n\t<assetSettings
@@ -2523,7 +2517,7 @@ MonoBehaviour:
       typeID=\"0\" startLevel=\"1\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"0\"
       randomSVBonusType=\"0\" svBonusCount=\"1\" lootOrigin=\"0\" logTextID=\"0\"
       logID=\"0\" deathVarOrigin=\"0\" aggressionType=\"0\" shortcutListCount=\"1\"
-      animationSystem=\"0\" animationID=\"0\" animationBattleID=\"0\" >\n\t\t\t\t<_float
+      animationSystem=\"1\" animationID=\"0\" animationBattleID=\"0\" >\n\t\t\t\t<_float
       battleGroupSizeChange=\"0\" sympathyChange=\"0\" aiTimeout=\"0\" />\n\t\t\t\t<_bool
       ownNumberFormat=\"False\" setObjectName=\"False\" useObjectVariables=\"False\"
       useObjectVariableDescription=\"False\" ownConsoleAddDefend=\"False\" ownConsoleDefend=\"False\"
@@ -2550,7 +2544,7 @@ MonoBehaviour:
       aggressionReactGroup=\"True\" aggressionNotifyFaction=\"False\" aggressionReactFaction=\"False\"
       limitAIRange=\"False\" ownAIDecisionTime=\"False\" useClassShortcuts=\"False\"
       ownShortcutListCount=\"False\" replaceDefaultShortcuts=\"False\" replaceDefaultAutoAddSlots=\"False\"
-      replaceDefaultAutoArrangeSlots=\"False\" useBattleAnims=\"False\" ownAutoAnimation=\"False\"
+      replaceDefaultAutoArrangeSlots=\"False\" useBattleAnims=\"False\" ownAutoAnimation=\"True\"
       />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap />\n\t\t\t\t\t<defenceAttributeID
       0 />\n\t\t\t\t\t<actionCombo />\n\t\t\t\t\t<money 0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<levelFormat><![CDATA[0]]></levelFormat>\n\t\t\t\t\t<classLevelFormat><![CDATA[0]]></classLevelFormat>\n\t\t\t\t\t<animationCustomName><![CDATA[]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<buyPriceValue
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
@@ -2578,9 +2572,18 @@ MonoBehaviour:
       range=\"20\" threshold=\"0\" />\n\t\t\t\t\t<_bool ignoreHeightDistance=\"True\"
       ignoreRadius=\"False\" />\n\t\t\t\t</aggressionNotifyRangeGroup>\n\t\t\t\t<aggressionNotifyRangeFaction>\n\t\t\t\t\t<_float
       range=\"20\" threshold=\"0\" />\n\t\t\t\t\t<_bool ignoreHeightDistance=\"True\"
-      ignoreRadius=\"False\" />\n\t\t\t\t</aggressionNotifyRangeFaction>\n\t\t\t\t<moveSettings
+      ignoreRadius=\"False\" />\n\t\t\t\t</aggressionNotifyRangeFaction>\n\t\t\t\t<autoAnimation>\n\t\t\t\t\t<_float
+      minFallTime=\"0.3\" minRunSpeed=\"3\" runSpeedThreshold=\"0\" minSprintSpeed=\"6\"
+      sprintSpeedThreshold=\"0\" minSpeedChange=\"1\" speedChangeDelay=\"0.1\" leftMinValue=\"-0.5\"
+      rightMinValue=\"0.5\" />\n\t\t\t\t\t<_bool enabled=\"True\" initialState=\"True\"
+      useSpeedChangeDelay=\"False\" useForwardAnimations=\"False\" useBackwardAnimations=\"False\"
+      useLeftAnimations=\"False\" useRightAnimations=\"False\" />\n\t\t\t\t\t<forwardAnimations
+      walkID=\"0\" runID=\"0\" sprintID=\"0\" >\n\t\t\t\t\t</forwardAnimations>\n\t\t\t\t\t<backwardAnimations
+      walkID=\"0\" runID=\"0\" sprintID=\"0\" >\n\t\t\t\t\t</backwardAnimations>\n\t\t\t\t\t<leftAnimations
+      walkID=\"0\" runID=\"0\" sprintID=\"0\" >\n\t\t\t\t\t</leftAnimations>\n\t\t\t\t\t<rightAnimations
+      walkID=\"0\" runID=\"0\" sprintID=\"0\" >\n\t\t\t\t\t</rightAnimations>\n\t\t\t\t</autoAnimation>\n\t\t\t\t<moveSettings
       moveAI=\"0\" battleMoveAI=\"0\" >\n\t\t\t\t\t<_float min=\"1\" max=\"10\" />\n\t\t\t\t\t<_bool
-      usePositionChange=\"True\" useMoveAI=\"False\" useBattleMoveAI=\"False\" ownFindGround=\"False\"
+      usePositionChange=\"False\" useMoveAI=\"False\" useBattleMoveAI=\"False\" ownFindGround=\"False\"
       />\n\t\t\t\t\t<walkSpeed type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float
       initialValue=\"0\" offset=\"0\" value=\"3\" value2=\"0\" />\n\t\t\t\t\t\t<_bool
       isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</walkSpeed>\n\t\t\t\t\t<runSpeed
@@ -2594,7 +2597,7 @@ MonoBehaviour:
       typeID=\"0\" startLevel=\"1\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"0\"
       randomSVBonusType=\"0\" svBonusCount=\"1\" lootOrigin=\"0\" logTextID=\"0\"
       logID=\"0\" deathVarOrigin=\"0\" aggressionType=\"0\" shortcutListCount=\"1\"
-      animationSystem=\"0\" animationID=\"0\" animationBattleID=\"0\" >\n\t\t\t\t<_float
+      animationSystem=\"1\" animationID=\"0\" animationBattleID=\"0\" >\n\t\t\t\t<_float
       battleGroupSizeChange=\"0\" sympathyChange=\"0\" aiTimeout=\"0\" />\n\t\t\t\t<_bool
       ownNumberFormat=\"False\" setObjectName=\"False\" useObjectVariables=\"False\"
       useObjectVariableDescription=\"False\" ownConsoleAddDefend=\"False\" ownConsoleDefend=\"False\"
@@ -2621,7 +2624,7 @@ MonoBehaviour:
       aggressionReactGroup=\"True\" aggressionNotifyFaction=\"False\" aggressionReactFaction=\"False\"
       limitAIRange=\"False\" ownAIDecisionTime=\"False\" useClassShortcuts=\"False\"
       ownShortcutListCount=\"False\" replaceDefaultShortcuts=\"False\" replaceDefaultAutoAddSlots=\"False\"
-      replaceDefaultAutoArrangeSlots=\"False\" useBattleAnims=\"False\" ownAutoAnimation=\"False\"
+      replaceDefaultAutoArrangeSlots=\"False\" useBattleAnims=\"False\" ownAutoAnimation=\"True\"
       />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap />\n\t\t\t\t\t<defenceAttributeID
       0 />\n\t\t\t\t\t<actionCombo />\n\t\t\t\t\t<money 0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<levelFormat><![CDATA[0]]></levelFormat>\n\t\t\t\t\t<classLevelFormat><![CDATA[0]]></classLevelFormat>\n\t\t\t\t\t<animationCustomName><![CDATA[]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<buyPriceValue
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
@@ -2649,9 +2652,18 @@ MonoBehaviour:
       range=\"20\" threshold=\"0\" />\n\t\t\t\t\t<_bool ignoreHeightDistance=\"True\"
       ignoreRadius=\"False\" />\n\t\t\t\t</aggressionNotifyRangeGroup>\n\t\t\t\t<aggressionNotifyRangeFaction>\n\t\t\t\t\t<_float
       range=\"20\" threshold=\"0\" />\n\t\t\t\t\t<_bool ignoreHeightDistance=\"True\"
-      ignoreRadius=\"False\" />\n\t\t\t\t</aggressionNotifyRangeFaction>\n\t\t\t\t<moveSettings
+      ignoreRadius=\"False\" />\n\t\t\t\t</aggressionNotifyRangeFaction>\n\t\t\t\t<autoAnimation>\n\t\t\t\t\t<_float
+      minFallTime=\"0.3\" minRunSpeed=\"3\" runSpeedThreshold=\"0\" minSprintSpeed=\"6\"
+      sprintSpeedThreshold=\"0\" minSpeedChange=\"1\" speedChangeDelay=\"0.1\" leftMinValue=\"-0.5\"
+      rightMinValue=\"0.5\" />\n\t\t\t\t\t<_bool enabled=\"True\" initialState=\"True\"
+      useSpeedChangeDelay=\"False\" useForwardAnimations=\"False\" useBackwardAnimations=\"False\"
+      useLeftAnimations=\"False\" useRightAnimations=\"False\" />\n\t\t\t\t\t<forwardAnimations
+      walkID=\"0\" runID=\"0\" sprintID=\"0\" >\n\t\t\t\t\t</forwardAnimations>\n\t\t\t\t\t<backwardAnimations
+      walkID=\"0\" runID=\"0\" sprintID=\"0\" >\n\t\t\t\t\t</backwardAnimations>\n\t\t\t\t\t<leftAnimations
+      walkID=\"0\" runID=\"0\" sprintID=\"0\" >\n\t\t\t\t\t</leftAnimations>\n\t\t\t\t\t<rightAnimations
+      walkID=\"0\" runID=\"0\" sprintID=\"0\" >\n\t\t\t\t\t</rightAnimations>\n\t\t\t\t</autoAnimation>\n\t\t\t\t<moveSettings
       moveAI=\"0\" battleMoveAI=\"0\" >\n\t\t\t\t\t<_float min=\"1\" max=\"10\" />\n\t\t\t\t\t<_bool
-      usePositionChange=\"True\" useMoveAI=\"False\" useBattleMoveAI=\"False\" ownFindGround=\"False\"
+      usePositionChange=\"False\" useMoveAI=\"False\" useBattleMoveAI=\"False\" ownFindGround=\"False\"
       />\n\t\t\t\t\t<walkSpeed type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float
       initialValue=\"0\" offset=\"0\" value=\"3\" value2=\"0\" />\n\t\t\t\t\t\t<_bool
       isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</walkSpeed>\n\t\t\t\t\t<runSpeed
@@ -2665,7 +2677,7 @@ MonoBehaviour:
       typeID=\"0\" startLevel=\"1\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"0\"
       randomSVBonusType=\"0\" svBonusCount=\"1\" lootOrigin=\"0\" logTextID=\"0\"
       logID=\"0\" deathVarOrigin=\"0\" aggressionType=\"0\" shortcutListCount=\"1\"
-      animationSystem=\"0\" animationID=\"0\" animationBattleID=\"0\" >\n\t\t\t\t<_float
+      animationSystem=\"1\" animationID=\"0\" animationBattleID=\"0\" >\n\t\t\t\t<_float
       battleGroupSizeChange=\"0\" sympathyChange=\"0\" aiTimeout=\"0\" />\n\t\t\t\t<_bool
       ownNumberFormat=\"False\" setObjectName=\"False\" useObjectVariables=\"False\"
       useObjectVariableDescription=\"False\" ownConsoleAddDefend=\"False\" ownConsoleDefend=\"False\"
@@ -2692,7 +2704,7 @@ MonoBehaviour:
       aggressionReactGroup=\"True\" aggressionNotifyFaction=\"False\" aggressionReactFaction=\"False\"
       limitAIRange=\"False\" ownAIDecisionTime=\"False\" useClassShortcuts=\"False\"
       ownShortcutListCount=\"False\" replaceDefaultShortcuts=\"False\" replaceDefaultAutoAddSlots=\"False\"
-      replaceDefaultAutoArrangeSlots=\"False\" useBattleAnims=\"False\" ownAutoAnimation=\"False\"
+      replaceDefaultAutoArrangeSlots=\"False\" useBattleAnims=\"False\" ownAutoAnimation=\"True\"
       />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap />\n\t\t\t\t\t<defenceAttributeID
       0 />\n\t\t\t\t\t<actionCombo />\n\t\t\t\t\t<money 0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<levelFormat><![CDATA[0]]></levelFormat>\n\t\t\t\t\t<classLevelFormat><![CDATA[0]]></classLevelFormat>\n\t\t\t\t\t<animationCustomName><![CDATA[]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<buyPriceValue
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
@@ -2720,9 +2732,18 @@ MonoBehaviour:
       range=\"20\" threshold=\"0\" />\n\t\t\t\t\t<_bool ignoreHeightDistance=\"True\"
       ignoreRadius=\"False\" />\n\t\t\t\t</aggressionNotifyRangeGroup>\n\t\t\t\t<aggressionNotifyRangeFaction>\n\t\t\t\t\t<_float
       range=\"20\" threshold=\"0\" />\n\t\t\t\t\t<_bool ignoreHeightDistance=\"True\"
-      ignoreRadius=\"False\" />\n\t\t\t\t</aggressionNotifyRangeFaction>\n\t\t\t\t<moveSettings
+      ignoreRadius=\"False\" />\n\t\t\t\t</aggressionNotifyRangeFaction>\n\t\t\t\t<autoAnimation>\n\t\t\t\t\t<_float
+      minFallTime=\"0.3\" minRunSpeed=\"3\" runSpeedThreshold=\"0\" minSprintSpeed=\"6\"
+      sprintSpeedThreshold=\"0\" minSpeedChange=\"1\" speedChangeDelay=\"0.1\" leftMinValue=\"-0.5\"
+      rightMinValue=\"0.5\" />\n\t\t\t\t\t<_bool enabled=\"True\" initialState=\"True\"
+      useSpeedChangeDelay=\"False\" useForwardAnimations=\"False\" useBackwardAnimations=\"False\"
+      useLeftAnimations=\"False\" useRightAnimations=\"False\" />\n\t\t\t\t\t<forwardAnimations
+      walkID=\"0\" runID=\"0\" sprintID=\"0\" >\n\t\t\t\t\t</forwardAnimations>\n\t\t\t\t\t<backwardAnimations
+      walkID=\"0\" runID=\"0\" sprintID=\"0\" >\n\t\t\t\t\t</backwardAnimations>\n\t\t\t\t\t<leftAnimations
+      walkID=\"0\" runID=\"0\" sprintID=\"0\" >\n\t\t\t\t\t</leftAnimations>\n\t\t\t\t\t<rightAnimations
+      walkID=\"0\" runID=\"0\" sprintID=\"0\" >\n\t\t\t\t\t</rightAnimations>\n\t\t\t\t</autoAnimation>\n\t\t\t\t<moveSettings
       moveAI=\"0\" battleMoveAI=\"0\" >\n\t\t\t\t\t<_float min=\"1\" max=\"10\" />\n\t\t\t\t\t<_bool
-      usePositionChange=\"True\" useMoveAI=\"False\" useBattleMoveAI=\"False\" ownFindGround=\"False\"
+      usePositionChange=\"False\" useMoveAI=\"False\" useBattleMoveAI=\"False\" ownFindGround=\"False\"
       />\n\t\t\t\t\t<walkSpeed type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float
       initialValue=\"0\" offset=\"0\" value=\"3\" value2=\"0\" />\n\t\t\t\t\t\t<_bool
       isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</walkSpeed>\n\t\t\t\t\t<runSpeed
@@ -2738,7 +2759,7 @@ MonoBehaviour:
       audioClips: []
       gameObjects:
       - {fileID: 1091734235383615999, guid: 925ce95c2b25c3f41ba4e4c7e9a5165b, type: 3}
-      - {fileID: 4223150977084334418, guid: d02142ce46fc95148b18bd557259df8d, type: 3}
+      - {fileID: 1091734235383615999, guid: 9e4bedee6af8f9e47903623834032f3f, type: 3}
       - {fileID: 5166859515066016756, guid: 9452ef050505545498f96ef30f6b8b20, type: 3}
       - {fileID: 419218063865378123, guid: b88eee80e05e8d44787d74859b63c0dd, type: 3}
       guiSkins: []
