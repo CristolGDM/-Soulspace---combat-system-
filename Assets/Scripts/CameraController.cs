@@ -4,32 +4,43 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    private Camera camera;
+    private Camera myCamera;
 
-    private int maxZoom = 16;
-    private int minZoom = 6;
-    private int zoomInterval = 2;
+    private readonly int maxZoom = 16;
+    private readonly int minZoom = 6;
+    private readonly int zoomInterval = 2;
+
+    static int currentZoom = 8;
 
     private void Awake()
     {
-        if (camera == null)
+        if (myCamera == null)
         {
-            camera = GetComponentInChildren<Camera>();
+            myCamera = GetComponentInChildren<Camera>();
+            SetZoom();
         }
     }
     public void UnzoomCamera()
     {
-        if(camera.orthographicSize >= maxZoom) {
-            camera.orthographicSize = minZoom;
+        if(myCamera.orthographicSize >= maxZoom) {
+            currentZoom = minZoom;
         } else {
-            camera.orthographicSize += zoomInterval;
+            currentZoom += zoomInterval;
         }
+        SetZoom();
     }
     public void ZoomCamera() {
-        if (camera.orthographicSize <= minZoom) {
-            camera.orthographicSize = maxZoom;
+        if (myCamera.orthographicSize <= minZoom) {
+            currentZoom = maxZoom;
         } else {
-            camera.orthographicSize -= zoomInterval;
+            currentZoom -= zoomInterval;
+        }
+        SetZoom();
+    }
+
+    private void SetZoom() {
+        if (myCamera != null) {
+            myCamera.orthographicSize = currentZoom;
         }
     }
 }

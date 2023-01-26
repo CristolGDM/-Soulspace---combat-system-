@@ -44,6 +44,24 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""NextCharacter"",
+                    ""type"": ""Button"",
+                    ""id"": ""8e1640c4-299d-45c5-a8cd-32b8f2ff8686"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""PrevCharacter"",
+                    ""type"": ""Button"",
+                    ""id"": ""08d45d31-2fa1-4a4f-8ab1-a65fcb681f62"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -112,6 +130,72 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""action"": ""UnZoom"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""40edeada-9ce3-482d-a0f7-e0f7f3c5140f"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NextCharacter"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cd083603-aaec-4f2f-a373-35b7151e2b4e"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NextCharacter"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""38e2a4ec-7ea8-4461-b878-63eac7e08c26"",
+                    ""path"": ""<Keyboard>/ctrl"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrevCharacter"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cc4140ec-a888-4883-b29d-3fe3e0dd8f7c"",
+                    ""path"": ""<Keyboard>/leftCtrl"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrevCharacter"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e3bd2aaf-4247-4376-be57-f37146c4565f"",
+                    ""path"": ""<Keyboard>/rightCtrl"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrevCharacter"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b0a5a68b-8716-466b-b0d6-df900d7294ac"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrevCharacter"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -122,6 +206,8 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_UIControl = asset.FindActionMap("UI Control", throwIfNotFound: true);
         m_UIControl_Zoom = m_UIControl.FindAction("Zoom", throwIfNotFound: true);
         m_UIControl_UnZoom = m_UIControl.FindAction("UnZoom", throwIfNotFound: true);
+        m_UIControl_NextCharacter = m_UIControl.FindAction("NextCharacter", throwIfNotFound: true);
+        m_UIControl_PrevCharacter = m_UIControl.FindAction("PrevCharacter", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -183,12 +269,16 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private IUIControlActions m_UIControlActionsCallbackInterface;
     private readonly InputAction m_UIControl_Zoom;
     private readonly InputAction m_UIControl_UnZoom;
+    private readonly InputAction m_UIControl_NextCharacter;
+    private readonly InputAction m_UIControl_PrevCharacter;
     public struct UIControlActions
     {
         private @PlayerControls m_Wrapper;
         public UIControlActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Zoom => m_Wrapper.m_UIControl_Zoom;
         public InputAction @UnZoom => m_Wrapper.m_UIControl_UnZoom;
+        public InputAction @NextCharacter => m_Wrapper.m_UIControl_NextCharacter;
+        public InputAction @PrevCharacter => m_Wrapper.m_UIControl_PrevCharacter;
         public InputActionMap Get() { return m_Wrapper.m_UIControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -204,6 +294,12 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @UnZoom.started -= m_Wrapper.m_UIControlActionsCallbackInterface.OnUnZoom;
                 @UnZoom.performed -= m_Wrapper.m_UIControlActionsCallbackInterface.OnUnZoom;
                 @UnZoom.canceled -= m_Wrapper.m_UIControlActionsCallbackInterface.OnUnZoom;
+                @NextCharacter.started -= m_Wrapper.m_UIControlActionsCallbackInterface.OnNextCharacter;
+                @NextCharacter.performed -= m_Wrapper.m_UIControlActionsCallbackInterface.OnNextCharacter;
+                @NextCharacter.canceled -= m_Wrapper.m_UIControlActionsCallbackInterface.OnNextCharacter;
+                @PrevCharacter.started -= m_Wrapper.m_UIControlActionsCallbackInterface.OnPrevCharacter;
+                @PrevCharacter.performed -= m_Wrapper.m_UIControlActionsCallbackInterface.OnPrevCharacter;
+                @PrevCharacter.canceled -= m_Wrapper.m_UIControlActionsCallbackInterface.OnPrevCharacter;
             }
             m_Wrapper.m_UIControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -214,6 +310,12 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @UnZoom.started += instance.OnUnZoom;
                 @UnZoom.performed += instance.OnUnZoom;
                 @UnZoom.canceled += instance.OnUnZoom;
+                @NextCharacter.started += instance.OnNextCharacter;
+                @NextCharacter.performed += instance.OnNextCharacter;
+                @NextCharacter.canceled += instance.OnNextCharacter;
+                @PrevCharacter.started += instance.OnPrevCharacter;
+                @PrevCharacter.performed += instance.OnPrevCharacter;
+                @PrevCharacter.canceled += instance.OnPrevCharacter;
             }
         }
     }
@@ -222,5 +324,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     {
         void OnZoom(InputAction.CallbackContext context);
         void OnUnZoom(InputAction.CallbackContext context);
+        void OnNextCharacter(InputAction.CallbackContext context);
+        void OnPrevCharacter(InputAction.CallbackContext context);
     }
 }

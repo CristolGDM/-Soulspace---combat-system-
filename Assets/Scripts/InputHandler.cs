@@ -6,10 +6,14 @@ public class InputHandler : MonoBehaviour
 {
     PlayerControls inputActions;
     CameraController cameraController;
+    SpriteController spriteController;
 
     private void Awake() {
         if (cameraController == null) {
             cameraController = GetComponent<CameraController>();
+        }
+        if (spriteController == null) {
+            spriteController = GetComponent<SpriteController>();
         }
     }
 
@@ -18,8 +22,13 @@ public class InputHandler : MonoBehaviour
         if (inputActions == null)
         {
             inputActions = new PlayerControls();
+
             inputActions.UIControl.Zoom.performed += i => cameraController.ZoomCamera();
             inputActions.UIControl.UnZoom.performed += i => cameraController.UnzoomCamera();
+
+            inputActions.UIControl.PrevCharacter.performed += i => spriteController.PreviousCharacter();
+            inputActions.UIControl.NextCharacter.performed += i => spriteController.NextCharacter();
+
             inputActions.Enable();
         }
     }
