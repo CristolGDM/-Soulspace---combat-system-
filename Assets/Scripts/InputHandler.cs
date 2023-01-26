@@ -29,10 +29,7 @@ public class InputHandler : MonoBehaviour
             inputActions.UIControl.PrevCharacter.performed += i => spriteController.PreviousCharacter();
             inputActions.UIControl.NextCharacter.performed += i => spriteController.NextCharacter();
 
-            inputActions.MovementControl.GoRight.performed += i => spriteController.SetDirectionRight();
-            inputActions.MovementControl.GoDown.performed += i => spriteController.SetDirectionDown();
-            inputActions.MovementControl.GoLeft.performed += i => spriteController.SetDirectionLeft();
-            inputActions.MovementControl.GoUp.performed += i => spriteController.SetDirectionUp();
+            inputActions.MovementControl.Moving.performed += i => spriteController.SetDirection(i.ReadValue<Vector2>());
 
             inputActions.Enable();
         }

@@ -15,6 +15,8 @@ public class SpriteController : MonoBehaviour
             animator = GetComponentInChildren<Animator>();
         }
     }
+
+    #region CharacterSwitching
     public void PreviousCharacter() {
         if(currentCharacter == 0) {
             currentCharacter = maxCharacter;
@@ -38,22 +40,48 @@ public class SpriteController : MonoBehaviour
         ORK.GlobalEvents.Get(currentCharacter).Call();
     }
 
-    public void SetDirectionUp() {
+    #endregion
+
+    public void SetDirection(Vector2 vector) {
+        float x = vector.x;
+        float y = vector.y;
+
+        if(x == 0) {
+            if(y < 0) {
+                SetDirectionDown();
+                return;
+            }
+            if (y > 0) {
+                SetDirectionUp();
+                return;
+            }
+        }
+        if(x < 0) {
+            SetDirectionLeft();
+            return;
+        }
+        if (x > 0) {
+            SetDirectionRight();
+            return;
+        }
+    }
+
+    private void SetDirectionUp() {
         if (animator != null) {
             animator.SetInteger("Direction", 0);
         }
     }
-    public void SetDirectionRight() {
+    private void SetDirectionRight() {
         if (animator != null) {
             animator.SetInteger("Direction", 1);
         }
     }
-    public void SetDirectionDown() {
+    private void SetDirectionDown() {
         if (animator != null) {
             animator.SetInteger("Direction", 2);
         }
     }
-    public void SetDirectionLeft() {
+    private void SetDirectionLeft() {
         if (animator != null) {
             animator.SetInteger("Direction", 3);
         }
