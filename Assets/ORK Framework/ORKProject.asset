@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 1/26/2023 6:26:52 PM
+  time: 1/26/2023 10:49:38 PM
   version: 2.34.1
   keys:
   - editorSettings
@@ -347,18 +347,22 @@ MonoBehaviour:
       />\n\t\t\t\t<_bool invertAxis=\"False\" limitAxis=\"False\" uiBlocksInput=\"False\"
       isJoypadAxis=\"False\" joypadUpDownFullAxis=\"False\" useRawAxis=\"False\"
       consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[None]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t\t<1
-      type=\"2\" positiveKey=\"100\" negativeKey=\"97\" mouseButton=\"0\" clickCount=\"1\"
+      type=\"3\" positiveKey=\"100\" negativeKey=\"97\" mouseButton=\"0\" clickCount=\"1\"
       touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"1\" >\n\t\t\t\t<_float
       axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
       inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
       limitAxis=\"False\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" joypadUpDownFullAxis=\"False\"
-      useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Horizontal]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t\t<2
-      type=\"2\" positiveKey=\"119\" negativeKey=\"115\" mouseButton=\"0\" clickCount=\"1\"
+      useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Horizontal]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<input>\n\t\t\t\t\t\t<0
+      inputKeyID=\"5\" >\n\t\t\t\t\t\t\t<_bool negate=\"False\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      inputKeyID=\"7\" >\n\t\t\t\t\t\t\t<_bool negate=\"False\" />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</input>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
+      type=\"3\" positiveKey=\"119\" negativeKey=\"115\" mouseButton=\"0\" clickCount=\"1\"
       touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"1\" >\n\t\t\t\t<_float
       axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
       inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
       limitAxis=\"False\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" joypadUpDownFullAxis=\"False\"
-      useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Vertical]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t\t<3
+      useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Vertical]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<input>\n\t\t\t\t\t\t<0
+      inputKeyID=\"6\" >\n\t\t\t\t\t\t\t<_bool negate=\"False\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      inputKeyID=\"8\" >\n\t\t\t\t\t\t\t<_bool negate=\"False\" />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</input>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
       type=\"2\" positiveKey=\"13\" negativeKey=\"0\" mouseButton=\"0\" clickCount=\"1\"
       touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"0\" >\n\t\t\t\t<_float
       axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
@@ -370,7 +374,31 @@ MonoBehaviour:
       axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
       inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
       limitAxis=\"False\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" joypadUpDownFullAxis=\"False\"
-      useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Cancel]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</4>\n\t\t</data>\n\t</_subarrays>\n</inputKeys>\n"
+      useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Cancel]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</4>\n\t\t\t<5
+      type=\"2\" positiveKey=\"100\" negativeKey=\"97\" mouseButton=\"0\" clickCount=\"1\"
+      touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"1\" >\n\t\t\t\t<_float
+      axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
+      inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
+      limitAxis=\"False\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" joypadUpDownFullAxis=\"False\"
+      useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[WASD-horiz]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</5>\n\t\t\t<6
+      type=\"2\" positiveKey=\"119\" negativeKey=\"115\" mouseButton=\"0\" clickCount=\"1\"
+      touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"1\" >\n\t\t\t\t<_float
+      axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
+      inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
+      limitAxis=\"False\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" joypadUpDownFullAxis=\"False\"
+      useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[WASD-vert]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</6>\n\t\t\t<7
+      type=\"2\" positiveKey=\"275\" negativeKey=\"276\" mouseButton=\"0\" clickCount=\"1\"
+      touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"1\" >\n\t\t\t\t<_float
+      axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
+      inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
+      limitAxis=\"False\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" joypadUpDownFullAxis=\"False\"
+      useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[arrow-horiz]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</7>\n\t\t\t<8
+      type=\"2\" positiveKey=\"273\" negativeKey=\"274\" mouseButton=\"0\" clickCount=\"1\"
+      touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"1\" >\n\t\t\t\t<_float
+      axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
+      inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
+      limitAxis=\"False\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" joypadUpDownFullAxis=\"False\"
+      useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[arrow-vert]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</8>\n\t\t</data>\n\t</_subarrays>\n</inputKeys>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -759,7 +787,13 @@ MonoBehaviour:
       loadSceneMode=\"0\" guiBoxID=\"0\" >\n\t\t<_float waitTime=\"1\" />\n\t\t<_bool
       loadAsync=\"False\" fieldAuto=\"False\" autoGroupDead=\"True\" useFadeOut=\"True\"
       useFadeIn=\"True\" showChoice=\"False\" loadMainMenuScene=\"True\" useTitle=\"False\"
-      showRetry=\"True\" showLoad=\"True\" showExit=\"True\" />\n\t\t<_string>\n\t\t\t<scene><![CDATA[]]></scene>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<variableSetter>\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableSetter>\n\t\t<retryButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
+      showRetry=\"True\" showLoad=\"True\" showExit=\"True\" />\n\t\t<_string>\n\t\t\t<scene><![CDATA[]]></scene>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<fadeOut
+      interpolation=\"0\" >\n\t\t\t<_float time=\"0.5\" />\n\t\t\t<_bool alpha=\"True\"
+      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t<_floatarrays>\n\t\t\t\t<startColor
+      0 0 0 0 />\n\t\t\t\t<endColor 0 0 0 1 />\n\t\t\t</_floatarrays>\n\t\t</fadeOut>\n\t\t<fadeIn
+      interpolation=\"0\" >\n\t\t\t<_float time=\"0.5\" />\n\t\t\t<_bool alpha=\"True\"
+      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t<_floatarrays>\n\t\t\t\t<startColor
+      0 0 0 1 />\n\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t</_floatarrays>\n\t\t</fadeIn>\n\t\t<variableSetter>\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableSetter>\n\t\t<retryButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomPosition=\"False\" useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Retry]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</retryButton>\n\t\t<loadButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomPosition=\"False\" useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Load]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</loadButton>\n\t\t<exitButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomPosition=\"False\" useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Exit]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</exitButton>\n\t</gameOver>\n\t<initialVariables>\n\t\t<_subarrays>\n\t\t\t<gameVariable>\n\t\t\t</gameVariable>\n\t\t</_subarrays>\n\t</initialVariables>\n\t<assetSettings
