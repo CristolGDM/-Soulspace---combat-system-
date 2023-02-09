@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: SetSpum
   m_EditorClassIdentifier: 
-  time: 1/26/2023 11:15:45 AM
+  time: 2/9/2023 6:11:35 PM
   version: 2.34.1
   data:
     name: gameEvent
@@ -21,14 +21,11 @@ MonoBehaviour:
       closeAllDialogues=\"False\" blockPlayer=\"False\" blockCamera=\"False\" clearBlocks=\"False\"
       mainCamera=\"True\" cameraTag=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\"
       />\n\t<_floatarrays>\n\t\t<nodePosition 38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t</actor>\n\t\t<waypoint>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
-      combatantID=\"0\" next=\"1\" >\n\t\t\t\t<_bool actor=\"False\" active=\"True\"
+      combatantID=\"0\" next=\"-1\" >\n\t\t\t\t<_bool actor=\"False\" active=\"True\"
       overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       304 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[SetPlayerStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<usedObject
       type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
-      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t</0>\n\t\t\t<1
-      type=\"0\" next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\"
-      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 608 95 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<text><![CDATA[IMCALLED]]></text>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[DebugStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<variableOrigin
-      origin=\"1\" >\n\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t</variableOrigin>\n\t\t\t</1>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t</0>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
     lookUp:
       textures: []
       audioClips: []

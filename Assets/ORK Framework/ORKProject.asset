@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 2/9/2023 5:58:57 PM
+  time: 2/9/2023 6:29:40 PM
   version: 2.34.1
   keys:
   - editorSettings
@@ -328,7 +328,10 @@ MonoBehaviour:
       enabled=\"False\" perWorldUnit=\"False\" usePosition=\"True\" useRotation=\"True\"
       />\n\t\t</targetTransition>\n\t\t<collisionCamera type=\"0\" layerMask=\"-1\"
       >\n\t\t\t<_float moveTowards=\"0\" viewSize=\"0.5\" />\n\t\t\t<_bool enable=\"False\"
-      />\n\t\t\t<_string>\n\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t</_string>\n\t\t</collisionCamera>\n\t</cameraControl>\n\t<customControl>\n\t\t<_subarrays>\n\t\t\t<behaviours>\n\t\t\t</behaviours>\n\t\t</_subarrays>\n\t</customControl>\n</gameControls>\n"
+      />\n\t\t\t<_string>\n\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t</_string>\n\t\t</collisionCamera>\n\t</cameraControl>\n\t<customControl>\n\t\t<_subarrays>\n\t\t\t<behaviours>\n\t\t\t\t<0
+      blockType=\"0\" objectType=\"0\" >\n\t\t\t\t\t<_bool fromRoot=\"True\" onChild=\"False\"
+      onParent=\"False\" add=\"True\" setFields=\"False\" changeOnlyAdd=\"False\"
+      />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[InputHandler]]></name>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</0>\n\t\t\t</behaviours>\n\t\t</_subarrays>\n\t</customControl>\n</gameControls>\n"
     lookUp:
       textures: []
       audioClips: []
