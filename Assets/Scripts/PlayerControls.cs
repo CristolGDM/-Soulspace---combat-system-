@@ -62,6 +62,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""OpenMenu"",
+                    ""type"": ""Button"",
+                    ""id"": ""7e1b98a4-af80-47d0-81b2-fbd7f8852d7e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -194,6 +203,17 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""PrevCharacter"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""363ff244-52f4-4211-9535-e3c6d2a77921"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""OpenMenu"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -335,6 +355,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_UIControl_UnZoom = m_UIControl.FindAction("UnZoom", throwIfNotFound: true);
         m_UIControl_NextCharacter = m_UIControl.FindAction("NextCharacter", throwIfNotFound: true);
         m_UIControl_PrevCharacter = m_UIControl.FindAction("PrevCharacter", throwIfNotFound: true);
+        m_UIControl_OpenMenu = m_UIControl.FindAction("OpenMenu", throwIfNotFound: true);
         // MovementControl
         m_MovementControl = asset.FindActionMap("MovementControl", throwIfNotFound: true);
         m_MovementControl_Moving = m_MovementControl.FindAction("Moving", throwIfNotFound: true);
@@ -401,6 +422,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_UIControl_UnZoom;
     private readonly InputAction m_UIControl_NextCharacter;
     private readonly InputAction m_UIControl_PrevCharacter;
+    private readonly InputAction m_UIControl_OpenMenu;
     public struct UIControlActions
     {
         private @PlayerControls m_Wrapper;
@@ -409,6 +431,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         public InputAction @UnZoom => m_Wrapper.m_UIControl_UnZoom;
         public InputAction @NextCharacter => m_Wrapper.m_UIControl_NextCharacter;
         public InputAction @PrevCharacter => m_Wrapper.m_UIControl_PrevCharacter;
+        public InputAction @OpenMenu => m_Wrapper.m_UIControl_OpenMenu;
         public InputActionMap Get() { return m_Wrapper.m_UIControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -430,6 +453,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @PrevCharacter.started -= m_Wrapper.m_UIControlActionsCallbackInterface.OnPrevCharacter;
                 @PrevCharacter.performed -= m_Wrapper.m_UIControlActionsCallbackInterface.OnPrevCharacter;
                 @PrevCharacter.canceled -= m_Wrapper.m_UIControlActionsCallbackInterface.OnPrevCharacter;
+                @OpenMenu.started -= m_Wrapper.m_UIControlActionsCallbackInterface.OnOpenMenu;
+                @OpenMenu.performed -= m_Wrapper.m_UIControlActionsCallbackInterface.OnOpenMenu;
+                @OpenMenu.canceled -= m_Wrapper.m_UIControlActionsCallbackInterface.OnOpenMenu;
             }
             m_Wrapper.m_UIControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -446,6 +472,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @PrevCharacter.started += instance.OnPrevCharacter;
                 @PrevCharacter.performed += instance.OnPrevCharacter;
                 @PrevCharacter.canceled += instance.OnPrevCharacter;
+                @OpenMenu.started += instance.OnOpenMenu;
+                @OpenMenu.performed += instance.OnOpenMenu;
+                @OpenMenu.canceled += instance.OnOpenMenu;
             }
         }
     }
@@ -489,6 +518,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnUnZoom(InputAction.CallbackContext context);
         void OnNextCharacter(InputAction.CallbackContext context);
         void OnPrevCharacter(InputAction.CallbackContext context);
+        void OnOpenMenu(InputAction.CallbackContext context);
     }
     public interface IMovementControlActions
     {
