@@ -7,12 +7,14 @@ public class SpriteController : MonoBehaviour
 {
     static int currentCharacter = 0;
     private readonly int maxCharacter = 2;
+    static int characterDirection = 2;
 
     private Animator animator;
 
     private void Awake() {
         if (animator == null) {
             animator = GetComponentInChildren<Animator>();
+            animator.SetInteger("Direction", characterDirection);
         }
     }
 
@@ -69,21 +71,25 @@ public class SpriteController : MonoBehaviour
     private void SetDirectionUp() {
         if (animator != null) {
             animator.SetInteger("Direction", 0);
+            characterDirection= 0;
         }
     }
     private void SetDirectionRight() {
         if (animator != null) {
             animator.SetInteger("Direction", 1);
+            characterDirection= 1;
         }
     }
     private void SetDirectionDown() {
         if (animator != null) {
             animator.SetInteger("Direction", 2);
+            characterDirection= 2;
         }
     }
     private void SetDirectionLeft() {
         if (animator != null) {
             animator.SetInteger("Direction", 3);
+            characterDirection= 3;
         }
     }
 }
