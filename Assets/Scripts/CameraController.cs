@@ -11,6 +11,10 @@ public class CameraController : MonoBehaviour
     private readonly int zoomInterval = 2;
 
     static int currentZoom = 8;
+    static bool isFilterOn;
+
+    private CRTPostEffecter crtComponent;
+    private ScanlinesEffect scanlinesComponent;
 
     private void Awake()
     {
@@ -18,6 +22,14 @@ public class CameraController : MonoBehaviour
         {
             myCamera = GetComponentInChildren<Camera>();
             SetZoom();
+        }
+        if (crtComponent == null) {
+            crtComponent = GetComponentInChildren<CRTPostEffecter>();
+            crtComponent.enabled = isFilterOn;
+        }
+        if (scanlinesComponent == null) {
+            scanlinesComponent = GetComponentInChildren<ScanlinesEffect>();
+            scanlinesComponent.enabled = isFilterOn;
         }
     }
     public void UnzoomCamera()
@@ -42,5 +54,16 @@ public class CameraController : MonoBehaviour
         if (myCamera != null) {
             myCamera.orthographicSize = currentZoom;
         }
+    }
+    public void SwitchFilterOnOff() {
+        if (crtComponent.isActiveAndEnabled) {
+            crtComponent.enabled = false;
+            scanlinesComponent.enabled = false;
+            isFilterOn = false;
+            return;
+        }
+        crtComponent.enabled = true;
+        scanlinesComponent.enabled = true;
+        isFilterOn = true;
     }
 }

@@ -31,6 +31,7 @@ public class InputHandler : MonoBehaviour
 
             inputActions.MovementControl.Moving.performed += i => spriteController.SetDirection(i.ReadValue<Vector2>());
 
+            inputActions.UIControl.SwitchCRT.performed += i => cameraController.SwitchFilterOnOff();
         }
         inputActions.Enable();
     }

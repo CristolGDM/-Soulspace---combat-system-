@@ -49,6 +49,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "SwitchCRT",
+                    "type": "Button",
+                    "id": "e9c02f9d-c69f-4db6-afc5-7fcc54ace7c6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -192,6 +201,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "OpenMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d9b9111b-9a80-4071-8408-eb8ad9accf62",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchCRT",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -71,6 +71,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SwitchCRT"",
+                    ""type"": ""Button"",
+                    ""id"": ""e9c02f9d-c69f-4db6-afc5-7fcc54ace7c6"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -216,6 +225,17 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""action"": ""OpenMenu"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d9b9111b-9a80-4071-8408-eb8ad9accf62"",
+                    ""path"": ""<Keyboard>/f"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SwitchCRT"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -356,6 +376,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_UIControl_NextCharacter = m_UIControl.FindAction("NextCharacter", throwIfNotFound: true);
         m_UIControl_PrevCharacter = m_UIControl.FindAction("PrevCharacter", throwIfNotFound: true);
         m_UIControl_OpenMenu = m_UIControl.FindAction("OpenMenu", throwIfNotFound: true);
+        m_UIControl_SwitchCRT = m_UIControl.FindAction("SwitchCRT", throwIfNotFound: true);
         // MovementControl
         m_MovementControl = asset.FindActionMap("MovementControl", throwIfNotFound: true);
         m_MovementControl_Moving = m_MovementControl.FindAction("Moving", throwIfNotFound: true);
@@ -423,6 +444,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_UIControl_NextCharacter;
     private readonly InputAction m_UIControl_PrevCharacter;
     private readonly InputAction m_UIControl_OpenMenu;
+    private readonly InputAction m_UIControl_SwitchCRT;
     public struct UIControlActions
     {
         private @PlayerControls m_Wrapper;
@@ -432,6 +454,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         public InputAction @NextCharacter => m_Wrapper.m_UIControl_NextCharacter;
         public InputAction @PrevCharacter => m_Wrapper.m_UIControl_PrevCharacter;
         public InputAction @OpenMenu => m_Wrapper.m_UIControl_OpenMenu;
+        public InputAction @SwitchCRT => m_Wrapper.m_UIControl_SwitchCRT;
         public InputActionMap Get() { return m_Wrapper.m_UIControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -456,6 +479,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @OpenMenu.started -= m_Wrapper.m_UIControlActionsCallbackInterface.OnOpenMenu;
                 @OpenMenu.performed -= m_Wrapper.m_UIControlActionsCallbackInterface.OnOpenMenu;
                 @OpenMenu.canceled -= m_Wrapper.m_UIControlActionsCallbackInterface.OnOpenMenu;
+                @SwitchCRT.started -= m_Wrapper.m_UIControlActionsCallbackInterface.OnSwitchCRT;
+                @SwitchCRT.performed -= m_Wrapper.m_UIControlActionsCallbackInterface.OnSwitchCRT;
+                @SwitchCRT.canceled -= m_Wrapper.m_UIControlActionsCallbackInterface.OnSwitchCRT;
             }
             m_Wrapper.m_UIControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -475,6 +501,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @OpenMenu.started += instance.OnOpenMenu;
                 @OpenMenu.performed += instance.OnOpenMenu;
                 @OpenMenu.canceled += instance.OnOpenMenu;
+                @SwitchCRT.started += instance.OnSwitchCRT;
+                @SwitchCRT.performed += instance.OnSwitchCRT;
+                @SwitchCRT.canceled += instance.OnSwitchCRT;
             }
         }
     }
@@ -519,6 +548,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnNextCharacter(InputAction.CallbackContext context);
         void OnPrevCharacter(InputAction.CallbackContext context);
         void OnOpenMenu(InputAction.CallbackContext context);
+        void OnSwitchCRT(InputAction.CallbackContext context);
     }
     public interface IMovementControlActions
     {
