@@ -1,6 +1,7 @@
 using ORKFramework;
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
 
 public class SpriteController : MonoBehaviour
@@ -9,7 +10,13 @@ public class SpriteController : MonoBehaviour
     private readonly int maxCharacter = 2;
     static int characterDirection = 2;
 
+    private readonly float minSize = 0.5f;
+    private readonly float maxSize = 2.0f;
+    private readonly float sizeInterval = 0.5f;
+    static float characterSize = 1.0f;
+
     private Animator animator;
+
 
     private void Awake() {
         if (animator == null) {
@@ -91,5 +98,24 @@ public class SpriteController : MonoBehaviour
             animator.SetInteger("Direction", 3);
             characterDirection= 3;
         }
+    }
+
+    public void ZoomSprite() {
+        if(characterSize == maxSize) {
+            SetSpriteSize(minSize);
+            return;
+        }
+        SetSpriteSize(characterSize + sizeInterval);
+    }
+    public void UnzoomSprite() {
+        if (characterSize == minSize) {
+            SetSpriteSize(maxSize);
+            return;
+        }
+        SetSpriteSize(characterSize - sizeInterval);
+    }
+
+    private void SetSpriteSize(float size) {
+
     }
 }

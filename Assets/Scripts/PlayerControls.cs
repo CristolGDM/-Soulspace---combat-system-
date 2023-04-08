@@ -80,6 +80,24 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SpriteZoom"",
+                    ""type"": ""Button"",
+                    ""id"": ""7fe451dc-4753-4bb6-b33e-ca252619019c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SpriteUnzoom"",
+                    ""type"": ""Button"",
+                    ""id"": ""cbb93d5b-7f60-4638-b23f-eec32706fc39"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -236,6 +254,28 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""action"": ""SwitchCRT"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""477d5c11-7d95-4b0d-a965-5dc0e9cdbc0b"",
+                    ""path"": ""<Keyboard>/k"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SpriteZoom"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ca87c7a7-e273-49cd-9b10-d54394fa1354"",
+                    ""path"": ""<Keyboard>/j"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SpriteUnzoom"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -377,6 +417,8 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_UIControl_PrevCharacter = m_UIControl.FindAction("PrevCharacter", throwIfNotFound: true);
         m_UIControl_OpenMenu = m_UIControl.FindAction("OpenMenu", throwIfNotFound: true);
         m_UIControl_SwitchCRT = m_UIControl.FindAction("SwitchCRT", throwIfNotFound: true);
+        m_UIControl_SpriteZoom = m_UIControl.FindAction("SpriteZoom", throwIfNotFound: true);
+        m_UIControl_SpriteUnzoom = m_UIControl.FindAction("SpriteUnzoom", throwIfNotFound: true);
         // MovementControl
         m_MovementControl = asset.FindActionMap("MovementControl", throwIfNotFound: true);
         m_MovementControl_Moving = m_MovementControl.FindAction("Moving", throwIfNotFound: true);
@@ -445,6 +487,8 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_UIControl_PrevCharacter;
     private readonly InputAction m_UIControl_OpenMenu;
     private readonly InputAction m_UIControl_SwitchCRT;
+    private readonly InputAction m_UIControl_SpriteZoom;
+    private readonly InputAction m_UIControl_SpriteUnzoom;
     public struct UIControlActions
     {
         private @PlayerControls m_Wrapper;
@@ -455,6 +499,8 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         public InputAction @PrevCharacter => m_Wrapper.m_UIControl_PrevCharacter;
         public InputAction @OpenMenu => m_Wrapper.m_UIControl_OpenMenu;
         public InputAction @SwitchCRT => m_Wrapper.m_UIControl_SwitchCRT;
+        public InputAction @SpriteZoom => m_Wrapper.m_UIControl_SpriteZoom;
+        public InputAction @SpriteUnzoom => m_Wrapper.m_UIControl_SpriteUnzoom;
         public InputActionMap Get() { return m_Wrapper.m_UIControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -482,6 +528,12 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @SwitchCRT.started -= m_Wrapper.m_UIControlActionsCallbackInterface.OnSwitchCRT;
                 @SwitchCRT.performed -= m_Wrapper.m_UIControlActionsCallbackInterface.OnSwitchCRT;
                 @SwitchCRT.canceled -= m_Wrapper.m_UIControlActionsCallbackInterface.OnSwitchCRT;
+                @SpriteZoom.started -= m_Wrapper.m_UIControlActionsCallbackInterface.OnSpriteZoom;
+                @SpriteZoom.performed -= m_Wrapper.m_UIControlActionsCallbackInterface.OnSpriteZoom;
+                @SpriteZoom.canceled -= m_Wrapper.m_UIControlActionsCallbackInterface.OnSpriteZoom;
+                @SpriteUnzoom.started -= m_Wrapper.m_UIControlActionsCallbackInterface.OnSpriteUnzoom;
+                @SpriteUnzoom.performed -= m_Wrapper.m_UIControlActionsCallbackInterface.OnSpriteUnzoom;
+                @SpriteUnzoom.canceled -= m_Wrapper.m_UIControlActionsCallbackInterface.OnSpriteUnzoom;
             }
             m_Wrapper.m_UIControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -504,6 +556,12 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @SwitchCRT.started += instance.OnSwitchCRT;
                 @SwitchCRT.performed += instance.OnSwitchCRT;
                 @SwitchCRT.canceled += instance.OnSwitchCRT;
+                @SpriteZoom.started += instance.OnSpriteZoom;
+                @SpriteZoom.performed += instance.OnSpriteZoom;
+                @SpriteZoom.canceled += instance.OnSpriteZoom;
+                @SpriteUnzoom.started += instance.OnSpriteUnzoom;
+                @SpriteUnzoom.performed += instance.OnSpriteUnzoom;
+                @SpriteUnzoom.canceled += instance.OnSpriteUnzoom;
             }
         }
     }
@@ -549,6 +607,8 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnPrevCharacter(InputAction.CallbackContext context);
         void OnOpenMenu(InputAction.CallbackContext context);
         void OnSwitchCRT(InputAction.CallbackContext context);
+        void OnSpriteZoom(InputAction.CallbackContext context);
+        void OnSpriteUnzoom(InputAction.CallbackContext context);
     }
     public interface IMovementControlActions
     {

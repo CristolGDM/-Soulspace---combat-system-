@@ -29,6 +29,9 @@ public class InputHandler : MonoBehaviour
             inputActions.UIControl.PrevCharacter.performed += i => spriteController.PreviousCharacter();
             inputActions.UIControl.NextCharacter.performed += i => spriteController.NextCharacter();
 
+            inputActions.UIControl.SpriteZoom.performed += i => spriteController.ZoomSprite();
+            inputActions.UIControl.SpriteUnzoom.performed += i => spriteController.UnzoomSprite();
+
             inputActions.MovementControl.Moving.performed += i => spriteController.SetDirection(i.ReadValue<Vector2>());
 
             inputActions.UIControl.SwitchCRT.performed += i => cameraController.SwitchFilterOnOff();
